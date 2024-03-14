@@ -38,6 +38,7 @@ Partial Class DinerMenuForm
         Me.DinerNameLabel.Size = New System.Drawing.Size(179, 25)
         Me.DinerNameLabel.TabIndex = 0
         Me.DinerNameLabel.Text = "Hermano's Fiesta"
+        Me.DinerNameLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'SoupButton
         '
@@ -83,6 +84,7 @@ Partial Class DinerMenuForm
         Me.DisplaySpecialLabel.Size = New System.Drawing.Size(77, 25)
         Me.DisplaySpecialLabel.TabIndex = 5
         Me.DisplaySpecialLabel.Text = "Label1"
+        Me.DisplaySpecialLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'DinerMenuForm
         '
