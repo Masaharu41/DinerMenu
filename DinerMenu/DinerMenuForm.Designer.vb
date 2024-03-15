@@ -33,7 +33,7 @@ Partial Class DinerMenuForm
         'DinerNameLabel
         '
         Me.DinerNameLabel.AutoSize = True
-        Me.DinerNameLabel.Location = New System.Drawing.Point(250, 13)
+        Me.DinerNameLabel.Location = New System.Drawing.Point(289, 29)
         Me.DinerNameLabel.Name = "DinerNameLabel"
         Me.DinerNameLabel.Size = New System.Drawing.Size(179, 25)
         Me.DinerNameLabel.TabIndex = 0
@@ -46,7 +46,7 @@ Partial Class DinerMenuForm
         Me.SoupButton.Name = "SoupButton"
         Me.SoupButton.Size = New System.Drawing.Size(173, 71)
         Me.SoupButton.TabIndex = 1
-        Me.SoupButton.Text = "Soup"
+        Me.SoupButton.Text = "S&oup"
         Me.SoupButton.UseVisualStyleBackColor = True
         '
         'SaladButton
@@ -55,7 +55,7 @@ Partial Class DinerMenuForm
         Me.SaladButton.Name = "SaladButton"
         Me.SaladButton.Size = New System.Drawing.Size(173, 71)
         Me.SaladButton.TabIndex = 2
-        Me.SaladButton.Text = "Salad"
+        Me.SaladButton.Text = "S&alad"
         Me.SaladButton.UseVisualStyleBackColor = True
         '
         'FishButton
@@ -64,7 +64,7 @@ Partial Class DinerMenuForm
         Me.FishButton.Name = "FishButton"
         Me.FishButton.Size = New System.Drawing.Size(173, 71)
         Me.FishButton.TabIndex = 3
-        Me.FishButton.Text = "Fish"
+        Me.FishButton.Text = "&Fish"
         Me.FishButton.UseVisualStyleBackColor = True
         '
         'ExitButton
@@ -73,18 +73,18 @@ Partial Class DinerMenuForm
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(173, 71)
         Me.ExitButton.TabIndex = 4
-        Me.ExitButton.Text = "Leave"
+        Me.ExitButton.Text = "&Leave"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
         'DisplaySpecialLabel
         '
         Me.DisplaySpecialLabel.AutoSize = True
-        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(271, 91)
+        Me.DisplaySpecialLabel.Location = New System.Drawing.Point(38, 91)
         Me.DisplaySpecialLabel.Name = "DisplaySpecialLabel"
         Me.DisplaySpecialLabel.Size = New System.Drawing.Size(77, 25)
         Me.DisplaySpecialLabel.TabIndex = 5
         Me.DisplaySpecialLabel.Text = "Label1"
-        Me.DisplaySpecialLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        Me.DisplaySpecialLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'DinerMenuForm
         '
