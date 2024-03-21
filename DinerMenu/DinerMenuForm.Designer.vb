@@ -22,12 +22,14 @@ Partial Class DinerMenuForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.DinerNameLabel = New System.Windows.Forms.Label()
         Me.SoupButton = New System.Windows.Forms.Button()
         Me.SaladButton = New System.Windows.Forms.Button()
         Me.FishButton = New System.Windows.Forms.Button()
         Me.ExitButton = New System.Windows.Forms.Button()
         Me.DisplaySpecialLabel = New System.Windows.Forms.Label()
+        Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'DinerNameLabel
@@ -47,6 +49,7 @@ Partial Class DinerMenuForm
         Me.SoupButton.Size = New System.Drawing.Size(173, 71)
         Me.SoupButton.TabIndex = 1
         Me.SoupButton.Text = "S&oup"
+        Me.ToolTip.SetToolTip(Me.SoupButton, "Displays our Special Soup")
         Me.SoupButton.UseVisualStyleBackColor = True
         '
         'SaladButton
@@ -56,6 +59,7 @@ Partial Class DinerMenuForm
         Me.SaladButton.Size = New System.Drawing.Size(173, 71)
         Me.SaladButton.TabIndex = 2
         Me.SaladButton.Text = "S&alad"
+        Me.ToolTip.SetToolTip(Me.SaladButton, "Displays our House Salad")
         Me.SaladButton.UseVisualStyleBackColor = True
         '
         'FishButton
@@ -65,6 +69,7 @@ Partial Class DinerMenuForm
         Me.FishButton.Size = New System.Drawing.Size(173, 71)
         Me.FishButton.TabIndex = 3
         Me.FishButton.Text = "&Fish"
+        Me.ToolTip.SetToolTip(Me.FishButton, "Displays our Prized Fish")
         Me.FishButton.UseVisualStyleBackColor = True
         '
         'ExitButton
@@ -74,6 +79,7 @@ Partial Class DinerMenuForm
         Me.ExitButton.Size = New System.Drawing.Size(173, 71)
         Me.ExitButton.TabIndex = 4
         Me.ExitButton.Text = "&Leave"
+        Me.ToolTip.SetToolTip(Me.ExitButton, "Leave the Diner")
         Me.ExitButton.UseVisualStyleBackColor = True
         '
         'DisplaySpecialLabel
@@ -110,4 +116,5 @@ Partial Class DinerMenuForm
     Friend WithEvents FishButton As Button
     Friend WithEvents ExitButton As Button
     Friend WithEvents DisplaySpecialLabel As Label
+    Friend WithEvents ToolTip As ToolTip
 End Class
