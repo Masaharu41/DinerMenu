@@ -42,7 +42,7 @@ Partial Class DinerMenuForm
         '
         'SoupButton
         '
-        Me.SoupButton.Location = New System.Drawing.Point(143, 246)
+        Me.SoupButton.Location = New System.Drawing.Point(12, 297)
         Me.SoupButton.Name = "SoupButton"
         Me.SoupButton.Size = New System.Drawing.Size(173, 71)
         Me.SoupButton.TabIndex = 1
@@ -51,7 +51,7 @@ Partial Class DinerMenuForm
         '
         'SaladButton
         '
-        Me.SaladButton.Location = New System.Drawing.Point(336, 246)
+        Me.SaladButton.Location = New System.Drawing.Point(191, 297)
         Me.SaladButton.Name = "SaladButton"
         Me.SaladButton.Size = New System.Drawing.Size(173, 71)
         Me.SaladButton.TabIndex = 2
@@ -60,7 +60,7 @@ Partial Class DinerMenuForm
         '
         'FishButton
         '
-        Me.FishButton.Location = New System.Drawing.Point(143, 323)
+        Me.FishButton.Location = New System.Drawing.Point(370, 297)
         Me.FishButton.Name = "FishButton"
         Me.FishButton.Size = New System.Drawing.Size(173, 71)
         Me.FishButton.TabIndex = 3
@@ -69,7 +69,7 @@ Partial Class DinerMenuForm
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(336, 323)
+        Me.ExitButton.Location = New System.Drawing.Point(567, 297)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(173, 71)
         Me.ExitButton.TabIndex = 4
@@ -90,7 +90,7 @@ Partial Class DinerMenuForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(802, 394)
         Me.Controls.Add(Me.DisplaySpecialLabel)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.FishButton)
